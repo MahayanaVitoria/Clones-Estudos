@@ -1,0 +1,29 @@
+body{
+    background-color: #f7dab0;
+    color: #4b1506;
+}
+
+#cabecalho{
+    background-color: #a87a45;
+    color: #f7dab0;
+}
+
+.navbar{
+    background-color: #4b1506;
+}
+
+.btn, .footer{
+    background-color: #f7dab0;
+    color: #4b1506;
+}
+.copy-footer{
+    color: #4b150691;
+}
+
+#pesquisar{
+    background-color: #f7dab0;
+}
+
+#carousel-item{
+    color: #f7dab0;
+}

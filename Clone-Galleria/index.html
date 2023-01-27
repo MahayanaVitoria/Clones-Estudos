@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galleria</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/css/style.css">
+        
+</head>
+<body>
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+        <a class="navbar-brand" href="#">Galleria</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tour.html">Tour</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Artistas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Contemporâneo</a>
+                        <a class="dropdown-item" href="#">Impressionismo</a>
+                        <a class="dropdown-item" href="#">Iluminismo</a>
+                        <a class="dropdown-item" href="#">Renascentismo</a>
+                        <a class="dropdown-item" href="#">Surrealismo</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Todos</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" id="pesquisar" aria-label="Pesquisar">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- CABEÇALHO -->
+    <div class="jumbotron" id="cabecalho">
+        <div class="container">
+          <h1 class="display-3 mb-3">Bem Vindo!</h1>
+          <p>Aproveite um tour virtual entre as obras de arte mais famosas do mundo diretamente de sua casa.</p>
+          <p><a class="btn btn-outline-light btn-lg mt-2" href="#" role="button">Começar »</a></p>
+        </div>
+      </div>
+
+    <!-- CARROSSEL -->
+    <div id="carouselExampleIndicators" class="carousel slide container mb-4" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img class="d-block w-100" src="./img/monalisa.webp" alt="Primeiro Slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Monalisa</h5>
+                <p>Leonardo Da Vinci</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100" src="./img/a-liberdade.jpg" alt="Segundo Slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>A Liberdade Guiando o Povo</h5>
+                <p>Eugène Delacroix</p>
+            </div>
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100" src="./img/a-ronda.jpg" alt="Terceiro Slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>A Ronda Noturna</h5>
+                <p>Rembrandt</p>
+            </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+
+    <!-- CONTEÚDO -->
+    <div class="container">
+        <h1>Destaques:</h1>
+        <div class="row align-items-center mb-3">
+            <div class="col-6">
+                <h3>A Persistência da Memória (1931)</h3>
+                <p>É uma pintura do artista surrealista Salvador Dalí, no auge do Movimento Surrealista. 
+                Quando Dalí pintou A Persistência da Memória, sua prática artística foi guiada pelo peculiar 
+                "método crítico-paranoico". Desenvolvida pelo artista em 1930, a técnica baseia-se em paranoias 
+                e alucinações autoinduzidas para facilitar a criação de uma obra de arte.</p>
+            </div>
+            <div class="col">
+                <img src="./img/persistencia-da-memoria.webp" class="w-75 float-right" alt="A Persistência da Memória">
+            </div>
+        </div>
+        <div class="row align-items-center mb-3">
+            <div class="col">
+                <h3>Uma Tarde de Domingo na Ilha de Grande Jatte (1884)</h3>
+                <p>É uma pintura a óleo de Georges-Pierre Seurat, considerada a sua obra mais destacada, 
+                realizada em 1884. A escolha deste tema por Seurat dá continuidade ao trabalho dos 
+                impressionistas em retratar as áreas de lazer e a vida contemporânea de Paris. 
+                A técnica é uma consequência das experimentações realizadas pelos impressionistas 
+                anos antes. O artista acreditava que as cores eram vistas como pontos de puro pigmento. 
+                Dessa forma, se colocasse pequenos pontos uns ao lado dos outros, com certa distância, 
+                criaria a imagem completa com intensa luminosidade.</p>
+            </div>
+            <div class="col">
+                <img src="/img/uma-tarde.webp" class="w-75 float-right" alt="Uma Tarde de Domingo na Ilha de Grande Jatte">
+            </div>
+        </div>
+        <div class="row align-items-center mb-3">
+            <div class="col">
+                <h3>A Criação de Adão (1511)</h3>
+                <p>A Criação de Adão é um fresco pintado por Michelangelo Buonarotti por volta de 1511. 
+                Deus é representado como um ancião barbudo, envolto em um manto que divide com alguns anjos.
+                Seu braço esquerdo está abraçado a Eva (na realidade Lilith) – que ainda não foi criada e, 
+                figuradamente, espera no céu para ganhar uma forma humana. O braço direito de Deus está 
+                esticado para criar o poder da vida de seu próprio dedo para Adão</p>
+            </div>
+            <div class="col">
+                <img src="/img/criacao-de-adao.png" class="w-75 float-right" alt="...">
+            </div>
+        </div>
+    </div>
+
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1 copy-footer">© 2022 Galleria</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a class="footer" href="#">Privacidade</a></li>
+            <li class="list-inline-item"><a class="footer" href="#">Termos</a></li>
+            <li class="list-inline-item"><a class="footer" href="#">Suporte</a></li>
+        </ul>
+    </footer>
+        
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
